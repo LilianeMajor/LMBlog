@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-right:220px;
+}
+
+.menu{
+    list-style: none;
+    gap: 45px;
+    font-size: 38px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 0px;
+}
+
+.texte h3{
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+
+
+.TITRE1 h3{
+    font-size: 40px;
+    font-family: "Anhaya Libre, serif";
+    font-weight: 800;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 80px;
+}
+
+.TITRE1 h4{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 50px;
+}
+
+#TITRE2{
+    margin-top: 100px;
+}
+
+#TITRE2 h4{
+    font-size: 38px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#TITRE2 h5{
+    font-size: 35px;
+    font-weight: 100;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#TITRE4 h4{
+    font-size: 40px;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+#TITRE4 h5{
+    font-size: 35px;
+    font-weight: 100;
+
+}
+
+#TITRE5 h4{
+    font-size: 40px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#TITRE5 h5{
+    font-size: 35px;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+.logo{
+    width: 130px;
+    margin-top: 25px;
+    margin-left: 60px;
+    padding-bottom: 30px;
+}
+
+
+.Bouton1{
+    width: 200px;
+    background-color: #f5eff7;
+    margin-top: 10px;
+    height: 65px;
+    font-size: 25px;
+    border-radius: 7px;
+}
+
+.Bouton1:hover{
+    background-color: lightgrey;
+    opacity: 0.15s;
+}
+
+.Bienvenue{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: #EFDECD;
+    background: linear-gradient(to right, #EFDECD 80%, #A68764 20%);
+    text-align: center;
+}
+
+.Bienvenue .texte{
+    margin-right: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+.Im1{
+    width: 610px;
+    height: 480px;
+    margin-right: 50px;
+    margin-top: 30px;
+    object-fit: cover;
+}
+
+
+
+.i{
+    width: 380px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.texte2{
+    font-size: 48px;
+    text-decoration: underline;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+
+}
+
+h2{
+    all: unset;
+}
+
+.categories{
+    display: flex;
+    flex-direction: row;
+}
+
+.page2{
+    background: linear-gradient(white 20%, #EFDECD 80%);
+}
+
+
+
+.bn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.bn h5{
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.bn h6{
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.bouton2{
+    border-color: black;
+    border-radius: 7px;
+    height: 60px;
+    width: 200px;
+    font-size: 25px;
+}
+
+.bouton2:hover{
+    background-color: lightgrey;
+    opacity: 0.15s;
+}
+
+.img2{
+    width: 1300px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 30px;
+    object-fit: cover;
+}
+
+.page3{
+    background: linear-gradient(#A68764 55%, white 45%);
+}
+
+.couleur{
+    font-size: 35px;
+    margin-left: 150px;
+    font-weight: 100;
+}
+
+.c{
+    font-size: 35px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+}
+
+
+.TITRE3{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    text-align: left;
+    background: linear-gradient(#EFDECD 66%, white 34%);
+}
+
+
+.TITRE3 img{
+    height: 900px;
+    width: 45%;
+    object-fit: cover;
+    margin-left: 80px;
+}
+
+.TITRE3 h4{
+    font-size: 40px;
+    font-weight: 100;
+    text-decoration: underline;
+    white-space: nowrap;
+    margin: 0;
+    margin-top: 50px;
+    margin-right: 80px;
+}
+
+.TITRE3 h5{
+    font-size: 35px;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 45px;
+    margin-right: 80px;
+}
+
+.TITRE3 p{
+    margin-top: 30px;
+}
+
+
+.TITRE4{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 100px;
+    background: linear-gradient(#EFDECD 93%, white 7%);
+}
+
+.TITRE4 img{
+    order: 2;
+    width: 80%;
+    height: 720px;
+    object-fit: cover;
+}
+
+.TITRE4 h4{
+    font-size: 40px;
+    font-weight: 100;
+    text-decoration: underline;
+    margin: 0;
+    margin-top: 30px;
+    margin-right: 180px;
+
+}
+
+
+.TITRE4 h5{
+    font-size: 35px;
+    font-weight: 100;
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+
+
+.TITRE5 h4{
+    font-size: 40px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.TITRE5 h5{
+    font-size: 35px;
+    font-weight: 100;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.Apropos{
+    margin-top: 200px;
+}
+
+.Apropos h2{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    background: #A68764;
+    display: block;
+    padding: 50px;
+}
+
+.Apropos h4{
+    font-size: 35px;
+    display: block;
+    text-align: left;
+    gap: 50px;
+}
+
+.Apropos img{
+    width: 1500px;
+    height: 200px;
+    object-fit: cover;
+    align-items: center;
+    margin-left: 5px;
+}
